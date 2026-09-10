@@ -2,12 +2,12 @@ name: wheel-builder
 
 on:
   pull_request:
-  push:
-    branches:
-      - mainline
-      - 'release_*'
-  schedule:
-    - cron: "0 7 * * *"  # Run once daily
+  # push:
+  #   branches:
+  #     - mainline
+  #     - 'release_*'
+  # schedule:
+  #   - cron: "0 7 * * *"  # Run once daily
 
 permissions:
   contents: read  # to fetch code (actions/checkout)
