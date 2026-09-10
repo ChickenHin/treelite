@@ -2,8 +2,8 @@ name: pre-commit-update
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 20 * * 1"  # Run once weekly
+  # schedule:
+  #   - cron: "0 20 * * 1"  # Run once weekly
 
 permissions:
   pull-requests: write
